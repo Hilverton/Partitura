@@ -1,0 +1,20 @@
+h2 {
+	border-bottom: medium solid #000;
+	border-top: medium solid #000;
+	color: #000;
+}
+p{
+	display: inline-block;
+	width: 89%;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.cor{
+	background-color: #c0392b;
+	color: #fff;
+}
+
+.fixo{
+	background: linear-gradient(to right,#6F1E51,#B53471);
+}

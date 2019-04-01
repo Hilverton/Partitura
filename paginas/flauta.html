@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Partituras Orquestra Celebrart</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../styleInstrumentos.css">
+</head>
+<body>
+	<div class="container-fluid fixo">
+		<div class="container">
+			<nav class="navbar navbar-dark">
+				<a class="navbar-brand" href="../index.html">Partituras</a>
+			</nav>
+		</div>
+	</div>
+	<div class="container mt-1">
+		<img src="../img/teste.jpeg" class="img-fluid">
+	</div>
+
+	<!--MODAL-->
+
+	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Entrar</h5>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">Senha</label>
+							<input type="password" class="form-control" id="campoSenha">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-danger" onclick="Sair()" data-dismiss="modal">Sair</button>
+					<button type="button" class="btn btn-success" onclick="EntrarFlauta()" data-dismiss="modal">Entrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--MODAL-->
+
+	<div class="container">
+		<h2 class="text-center text-uppercase mt-3 mb-3 p-2">Flauta</h2>
+		<div class="container">
+			<button style="width: 100%" class="btn btn-danger mb-3 teste" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="true" aria-controls="pcv1 pcv2">Posso Clamar</button>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse" id="pcv1">
+							<p class="text-center">Flauta 1</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse" id="pcv2">
+							<p class="text-center">Flauta 2</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<button style="width: 100%" class="btn btn-danger mb-3" data-toggle="collapse" data-target=".multi-collapse1" aria-expanded="false" aria-controls="pcv1 pcv2">Adorador</button>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse1" id="pcv1">
+							<p class="text-center">Flauta 1</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse1" id="pcv2">
+							<p class="text-center">Flauta 2</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<button style="width: 100%" class="btn btn-danger mb-3" data-toggle="collapse" data-target=".multi-collapse2" aria-expanded="false" aria-controls="pcv1 pcv2">Draw me Close</button>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse2" id="pcv1">
+							<p class="text-center">Flauta 1</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="cor rounded form-group collapse multi-collapse2" id="pcv2">
+							<p class="text-center">Flauta 2</p>
+							<a href="partitura/Posso Clamar.pdf" class="fas fa-download text-light"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+
+	<footer class="container-fluid fixo text-light">
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-4">© 2018 Copyright:
+			<a>HC</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="../controle.js"></script>
+</body>
+</html>
